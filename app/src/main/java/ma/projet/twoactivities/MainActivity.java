@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("message", msg);
                 startActivity(intent);
+                Log.d(LOG_TAG, "Navigation vers la 2ème activité");
             }
         });
     }
